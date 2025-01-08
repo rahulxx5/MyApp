@@ -11,20 +11,21 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
+public class Signup extends AppCompatActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_signup);
 
-        TextView signupTextView = findViewById(R.id.signupTextView);
+        TextView loginTextView = findViewById(R.id.loginTextView);
 
-        signupTextView.setOnClickListener(new View.OnClickListener() {
+        loginTextView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent signupintent = new Intent(MainActivity.this, Signup.class);
-                startActivity(signupintent);
+                Intent loginIntent = new Intent(Signup.this, MainActivity.class);
+                startActivity(loginIntent);
             }
         });
 
