@@ -3,4 +3,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#FF00FF00</color>
+    <color name="btnclr">#62d472</color>
 </resources>
