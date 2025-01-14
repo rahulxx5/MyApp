@@ -14,7 +14,8 @@
         android:id="@+id/user_details"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/user_details_text"
+ />
 
     <Button
         android:id="@+id/logoutbutton"

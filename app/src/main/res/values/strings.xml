@@ -3,4 +3,5 @@
     <string name="email_hint"><font size="18">Email</font></string>
     <string name="password_hint"><font size="18">Password</font></string>
     <string name="name_hint"><font size="18">Enter Name</font></string>
+    <string name="user_details_text"><font size="18">TextView</font></string>
 </resources>
